@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Event Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🎉 JS Event Playground</h1>
+
+    <!-- Event Handling -->
+    <section>
+        <h2>Event Handling</h2>
+        <button id="clickButton">Click Me!</button>
+        <button id="changeTextButton">Change Text</button>
+        <div id="hoverElement">Hover over me!</div>
+        <input type="text" id="keypressInput" placeholder="Type something!">
+    </section>
+
+    <!-- Image Gallery -->
+    <section>
+        <h2>Image Gallery</h2>
+        <div id="gallery">
+            <img src="https://via.placeholder.com/100" alt="1" class="galleryImage">
+            <img src="https://via.placeholder.com/100/aaa" alt="2" class="galleryImage">
+            <img src="https://via.placeholder.com/100/bbb" alt="3" class="galleryImage">
+        </div>
+    </section>
+
+    <!-- Accordion -->
+    <section>
+        <h2>Accordion</h2>
+        <div class="accordion">
+            <button class="accordion-button">Section 1</button>
+            <div class="accordion-content">Content for section 1</div>
+
+            <button class="accordion-button">Section 2</button>
+            <div class="accordion-content">Content for section 2</div>
+        </div>
+    </section>
+
+    <!-- Form Validation -->
+    <section>
+        <h2>Form Validation</h2>
+        <form id="userForm">
+            <input type="text" id="name" placeholder="Name" required><br>
+            <input type="email" id="email" placeholder="Email" required><br>
+            <p id="emailFeedback"></p>
+            <input type="password" id="password" placeholder="Password" required><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
